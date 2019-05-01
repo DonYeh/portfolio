@@ -3293,6 +3293,14 @@ body {
   font-size: 14px;
   font-weight: 300;
   font-family: 'Montserrat', "Helvetica", Arial, sans-serif;
+  /* this changes the background */
+  /* background-color: purple; */
+  /* background-image: radial-gradient(circle,#0B0C0E 40%,#1C1F26 30%
+,  white 40%); */
+/* background-image: linear-gradient(to bottom,#0B0C0E 48% ,  white ); */
+/* background-image: radial-gradient(circle,#0B0C0E   ,#1C1F26,   white ); */
+/* background-image: linear-gradient(to right top, #ffffff, #d0d0d2, #a2a2a6, #77777d, #4e4f56, #3d3e45, #2c2e35, #1c1f26, #1c1f26, #1c1f26, #1c1f26, #1c1f26); */
+background-image: linear-gradient(to top, #ffffff, #ccccd0, #9b9ba2, #6d6e77, #41434f, #30333f, #1f232f, #0f1420, #121721, #161a23, #191c25, #1c1f26);
 }
 
 a {
@@ -6943,7 +6951,9 @@ License - nucleoapp.com/license/
 }
 
 .section-nude {
-  background-color: #FFFCF5;
+  /* background-color: #FFFCF5; */
+  background-color: white;
+
 }
 
 .section-gold {
@@ -8152,7 +8162,7 @@ License - nucleoapp.com/license/
       -moz-transform: rotate(0);
     }
   }
-}
+}†˜
 
 @media screen and (min-width: 991px) {
   .burger-menu .navbar-collapse {
