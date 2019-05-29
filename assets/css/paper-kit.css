@@ -7937,9 +7937,10 @@ background-image: url("https://www.transparenttextures.com/patterns/textured-pap
     position: relative;
     display: flex;
     -ms-flex-pack: justify !important;
-    justify-content: space-between !important;
+    justify-content: space-around !important;
     -ms-flex-align: center;
     align-items: center;
+    justify-content: center;
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
     -o-transform: translateX(0);
