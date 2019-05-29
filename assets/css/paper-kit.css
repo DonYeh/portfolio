@@ -3568,6 +3568,21 @@ input[type="file"]>input[type="button"]::-moz-focus-inner {
   
 }
 
+/* About Me section*/
+.about-me {
+  color: rgb(9, 31, 63);
+  font-weight: 350;
+  padding: 6%;
+}
+
+.navlinks {
+font-weight: 500;
+justify-content: space-evenly;
+padding: 0 4% 0;
+;
+}
+
+
 
 /*           Labels & Progress-bar              */
 
@@ -6529,6 +6544,7 @@ background-image: url("https://www.transparenttextures.com/patterns/textured-pap
 .card-big-shadow {
   max-width: 320px;
   position: relative;
+  padding: 1px;
 }
 
 //shadows on the language icons
@@ -6863,11 +6879,11 @@ background-image: url("https://www.transparenttextures.com/patterns/textured-pap
   font-weight: 700;
   margin: 0;
   color: #FFFFFF;
-  background: #fbf8ec;
-  background: -moz-linear-gradient(top, #FFFFFF 35%, #4e6773 100%);
-  background: -webkit-linear-gradient(top, #FFFFFF 35%, #4e6773 100%);
-  background: -ms-linear-gradient(top, #FFFFFF 35%, #4e6773 100%);
-  background: linear-gradient(to bottom, #FFFFFF 35%, #4e6773 100%);
+  background: #161618;
+  background: -moz-linear-gradient(top, #FFFFFF 35%, ##161618 100%);
+  background: -webkit-linear-gradient(top, #FFFFFF 35%, ##161618 100%);
+  background: -ms-linear-gradient(top, #FFFFFF 35%, ##161618 100%);
+  background: linear-gradient(to bottom, #FFFFFF 35%, ##161618 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -7134,6 +7150,12 @@ background-image: url("https://www.transparenttextures.com/patterns/textured-pap
   display:flex; 
   flex-direction:column-reverse;
 }
+
+.text {
+  display: flex;
+  justify-content: center;
+}
+
 
 @media all and (-ms-high-contrast: none),
 (-ms-high-contrast: active) {

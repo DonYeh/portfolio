@@ -20,7 +20,7 @@
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="./assets/demo/demo.css" rel="stylesheet" />
     <link href="./css/main.css" rel="stylesheet" type="text/css" />
-    <link href="https://hashdog.io/perico/stylesheets/perico.css" rel="stylesheet">  // perico icons
+    <link href="https://hashdog.io/perico/stylesheets/perico.css" rel="stylesheet">  
 
 </head>
 
@@ -29,25 +29,26 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-transparent " color-on-scroll="300">
         <div class="container">
             <div class="navbar-translate">
-                <a class="navbar-brand" href=" " rel="tooltip"
+                <!-- <a class="navbar-brand" href=" " rel="tooltip"
                     title="Coded by Donald Yeh" data-placement="bottom" target="_blank">
                     my portfolio
-                </a>
-                <a href="#aboutme" class="aboutme" title="aboutme" target="">About me</a>
-                <a href="#portfolio" class="portfolio" title="portfolio">Projects</a>
-                <a href="#contactme" class="contact" title="contact">Contact</a>
+                </a> -->
+                <a href="#aboutme" class="navlinks aboutme" title="aboutme" target="">About me</a>
+                <a href="#portfolio" class="navlinks portfolio" title="portfolio">Projects</a>
+                <a href="#contactme" class="navlinks contact" title="contact">Contact</a>
 
-                <button class="navbar-toggler navbar-toggler collapsed" type="button" data-toggle="collapse"
+                <!-- hamburger menu button -->
+                <!-- <button class="navbar-toggler navbar-toggler collapsed" type="button" data-toggle="collapse"
                     data-target="#navigation" aria-controls="navigation-index" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-bar bar1"></span>
                     <span class="navbar-toggler-bar bar2"></span>
                     <span class="navbar-toggler-bar bar3"></span>
-                </button>
+                </button> -->
             </div>
-            <div class="collapse navbar-collapse justify-content-end" id="navigation">
+            <!-- <div class="collapse navbar-collapse justify-content-end" id="navigation">
                 <ul class="navbar-nav" id="sidenav">
-                    <!-- <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom"
                             href="https://twitter.com/CreativeTim" target="_blank">
                             <i class="fa fa-twitter"></i>
@@ -67,7 +68,7 @@
                             <i class="fa fa-instagram"></i>
                             <p class="d-lg-none">Instagram</p>
                         </a>
-                    </li> -->
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" rel="tooltip" title="Star on GitHub" data-placement="bottom"
                             href="https://www.github.com/CreativeTimOfficial/paper-kit" target="_blank">
@@ -84,7 +85,7 @@
                             target="_blank" class="btn btn-danger btn-round">Github</a>
                     </li>
                 </ul>
-            </div>
+            </div> -->
         </div>
     </nav>
     <!-- End Navbar -->
@@ -103,7 +104,7 @@
                         <h2 class="title">Hi! I'm Donald.
                             <br />
                         </h2>
-                        <h6 class="description">Web Developer</h6>
+                        <h4 class="description">I'm a full-stack software developer from Atlanta</h4>
                     </div>
 
                 </div>
@@ -134,16 +135,18 @@
                 <div class="d-flex justify-content-center h-100 ">
                     <h2 class="text-dark-gray" id="aboutme"><strong>About Me</strong></h2>
                 </div>
-                <h3>I am a tireless seeker of knowledge, a persistent solver of problems, and a budding developer of the
-                    web.</h3>
+                <h3 class="about-me">
+                    Hello. I’m a full-stack developer who is passionate about writing clean, efficient code and solving real world problems, making the world a better place, one line of code at a time.  
+<br><br>
+                    I’m drawn to the overlap between design and development. I enjoy working within all stages of software development,  and nothing is more satisfying to me than building web & mobile apps from start to finish. I’ve recently discovered a passion for the front-end and creating dynamic user interfaces. </h3>
             </div>
             <div class="section section-gray-dark">
                 <div class="d-flex justify-content-center h-100 ">
                     <h2 class="text-dark-gray" id="portfolio"><strong>Projects</strong></h2>
                 </div>
                 <div class="projects-container">
-                    <h4 class="projects-text">I love feedback! If you have any comments or questions about
-                        any of my projects please get in touch. My contact information can be found below.</h4>
+                    <!-- <h4 class="projects-text">I love feedback! If you have any comments or questions about
+                        any of my projects please get in touch. My contact information can be found below.</h4> -->
                 </div>
                 <!-- <br> -->
                 <div class="row p-4">
@@ -151,17 +154,16 @@
                         <div class="card card-profile">
                             <div class="card-avatar border-white">
                                 <a href="#avatar">
-                                    <!-- <img src="./assets/img/SpaceGif.gif" alt="..."> -->
+                                    <img src="./assets/img/tetris-game-retro-arcade-512.png" alt="...">
                                 </a>
                             </div>
                             <div class="card-body">
-                                <h4 class="card-title text-dark">Capstone Project</h4>
-                                <h6 class="card-category text-dark">FULL-STACK WEB APP</h6>
+                                <h4 class="card-title text-dark">Chatris</h4>
+                                <h6 class="card-category text-dark">FULL-STACK WEB & MOBILE APP</h6>
                                 <p class="card-description text-dark">
-                                    A full stack web app description here
-                                </p>
+Enjoy a timeless classic while connecting with your friends over video and voice chat.  Chatris was built using React Native, PostgreSQL, Node, and third party libraries from Socket.io and OAuth                               </p>
                                 <div class="card-footer text-center">
-                                    <a href="https://github.com/benhall847/Space_Shooter"
+                                    <a href="https://github.com/A-DiRusso/Chatris"
                                         class="btn btn-just-icon btn-outline-default ">
                                         <i class="fa fa-github-alt" aria-hidden="true"></i>
                                     </a>
@@ -180,7 +182,7 @@
                                 <h4 class="card-title text-dark">Movie-Explorer</h4>
                                 <h6 class="card-category text-dark">Front-End web app</h6>
                                 <p class="card-description text-dark">
-                                    An API based Front-End web app. Written in JavaScript, HTML, and CSS.
+                                    Movie Explorer is a front-end web application used to browse and discover movies. It is built with Javascript, HTML, and CSS. It uses a responsive, mobile-first design featuring advanced filtering and search functionality. We used the OMDB and TMDB APIs for infinite-scrolling and displaying movie info.
                                 </p>
                                 <div class="card-footer text-center">
                                     <a href="https://movie.bugbyte.dev/" class="btn btn-just-icon btn-outline-default">
@@ -205,7 +207,9 @@
                                 <h4 class="card-title text-dark">Learn Code Share</h4>
                                 <h6 class="card-category text-dark">BACK-END WEB APP</h6>
                                 <p class="card-description text-dark">
-                                    A back-end project built with Node.js, Express, PostgreSQL, Javascript
+                                    Learn-Share-Code is a knowledge-base designed to be beginner friendly for new developers. Users can catch up on news in the tech industry, review methods from multiple languages, and submit new ones for the community. This project was built utilizing HTML, Javascript, Node.js, Express, and PostgreSQL. Additionally, Learn-Share-Code demonstrates a solid understanding of MVC/CRUD application design...
+
+
                                 </p>
                                 <div class="card-footer text-center">
                                     <a href="https://github.com/DonYeh/learn-share-code"
@@ -227,6 +231,8 @@
                                 <div class="card card-just-text" data-background="color" data-color="white"
                                     data-radius="none">
                                     <img src="./assets/img/javascript2.png" alt="Javascript">
+                                    <span class="text">Javascript</span>
+
                                 </div>
                                 <!-- end card -->
                             </div>
@@ -236,17 +242,30 @@
                                 <div class="card card-just-text" data-background="color" data-color="white"
                                     data-radius="none">
                                     <img src="./assets/img/react.png" alt="React">
+                                    <span class="text">React</span>
+
                                 </div>
                                 <!-- end card -->
                             </div>
                         </div>
-                        
+                        <div class="col-3 col-lg-1 col-md-2 col-sm-2">
+                            <div class="card-big-shadow">
+                                <div class="card card-just-text" data-background="color" data-color="white"
+                                    data-radius="none">
+                                    <img src="./assets/img/reactnativejs.png" alt="React Native">
+                                    <span class="text">React Native</span>
+
+                                </div>
+                                <!-- end card -->
+                            </div>
+                        </div>
 
                         <div class="col-3 col-lg-1 col-md-2 col-sm-2">
                             <div class="card-big-shadow">
                                 <div class="card card-just-text" data-background="color" data-color="white"
                                 data-radius="none">
                                 <img src="./assets/img/redux.png" alt="Redux">
+                                <span class="text">Redux</span>
                             </div>
                             <!-- end card -->
                         </div>
@@ -255,7 +274,9 @@
                         <div class="card-big-shadow">
                             <div class="card card-just-text" data-background="color" data-color="white"
                             data-radius="none">
-                            <img src="./assets/img/html55.png" alt="HTML5">
+                            <img src="./assets/img/html5-logo.png" alt="HTML5">
+                            <span class="text">HTML5</span>
+
                         </div>
                         <!-- end card -->
                     </div>
@@ -268,7 +289,9 @@
                     <div class="card-big-shadow">
                         <div class="card card-just-text" data-background="color" data-color="white"
                         data-radius="none">
-                        <img src="./assets/img/CSS33.png" alt="CSS3">
+                        <img src="./assets/img/CSS32-logo.png" alt="CSS3">
+                        <span class="text">CSS3</span>
+
                     </div>
                     <!-- end card -->
                 </div>
@@ -278,6 +301,8 @@
                     <div class="card card-just-text" data-background="color" data-color="white"
                     data-radius="none">
                     <img src="./assets/img/git.png" alt="Git">
+                    <span class="text">Git</span>
+
                 </div>
                 <!-- end card -->
             </div>
@@ -287,6 +312,8 @@
                 <div class="card card-just-text" data-background="color" data-color="white"
                 data-radius="none">
                 <img src="./assets/img/postgresql2.png" alt="PostgreSQL">
+                <span class="text">PostgreSQL</span>
+
             </div>
             <!-- end card -->
         </div>
@@ -295,7 +322,9 @@
         <div class="card-big-shadow">
             <div class="card card-just-text" data-background="color" data-color="white"
             data-radius="none">
-            <img src="./assets/img/nodejs2.png" alt="Node">
+            <img src="./assets/img/nodejs22.png" alt="Node">
+            <span class="text">Node.js</span>
+
         </div>
         <!-- end card -->
     </div>
@@ -307,6 +336,8 @@
         <div class="card card-just-text" data-background="color" data-color="white"
             data-radius="none">
             <img src="./assets/img/pythonIcon.png" alt="Python">
+            <span class="text">Python</span>
+
         </div>
         <!-- end card -->
     </div>
@@ -317,6 +348,8 @@
                                 <div class="card card-just-text" data-background="color" data-color="white"
                                     data-radius="none">
                                     <img src="./assets/img/express.png" alt="Express">
+                                    <span class="text">Express</span>
+
                                 </div>
                                 <!-- end card -->
                             </div>
@@ -325,20 +358,24 @@
                             <div class="card-big-shadow">
                                 <div class="card card-just-text" data-background="color" data-color="white"
                                     data-radius="none">
-                                    <img src="./assets/img/mocha.png" alt="Mocha">
+                                    <img src="./assets/img/mocha (1).png" alt="Mocha">
+                                    <span class="text">Mocha</span>
+
                                 </div>
                                 <!-- end card -->
                             </div>
                         </div>
-                        <div class="col-3 col-lg-1 col-md-2 col-sm-2">
+                        <!-- <div class="col-3 col-lg-1 col-md-2 col-sm-2">
                             <div class="card-big-shadow">
                                 <div class="card card-just-text" data-background="color" data-color="white"
                                     data-radius="none">
-                                    <img src="./assets/img/jasmine.png" alt="Jasmine">
+                                    <img src="./assets/img/jasmine2.png" alt="Jasmine">
+                                    <span class="text">Jasmine</span>
+
                                 </div>
                                 <!-- end card -->
                             </div>
-                        </div>
+                        </div> -->
 
 
 
@@ -355,7 +392,7 @@
                                 <div class="card card-contact no-transition">
                                     <h2 class="card-title text-center"><strong>Contact Me</strong></h2>
                                     <div class="row">
-                                        <div class="col-md-5 ml-auto">
+                                        <div class="col-md-2 ml-auto">
                                             <div class="card-body">
                                                 <div class="info info-horizontal">
                                                     <div class="icon icon-info">
@@ -372,13 +409,12 @@
                                                     </div>
                                                     <div class="description">
                                                         <a class="info-title" href src="https://github.com/DonYeh">Github</a>
-                                                      
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-5 mr-auto">
-                                            <form role="form" id="contact-form" method="post">
+                                        <div class="col-md-8 mr-auto">
+                                            <form role="form" id="contact-form" action="donald.yeh@gmail.com" method="post">
                                                 <div class="card-body">
                                                     <div class="row">
                                                         <div class="col-md-6">
