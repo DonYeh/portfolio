@@ -7157,6 +7157,9 @@ background-image: url("https://www.transparenttextures.com/patterns/textured-pap
 }
 
 
+
+/* Media Queries*/
+
 @media all and (-ms-high-contrast: none),
 (-ms-high-contrast: active) {
   /* IE10+ CSS styles go here */
@@ -7237,6 +7240,11 @@ background-image: url("https://www.transparenttextures.com/patterns/textured-pap
   h6 {
     font-size: 1em;
   }
+
+  .description .info-title{
+
+  }
+
   .navbar .container .container-material {
     left: 0;
     width: 100%;
@@ -8369,13 +8377,34 @@ background-image: url("https://www.transparenttextures.com/patterns/textured-pap
     -ms-transform: translateX(-230px);
     transform: translateX(-230px);
   }
-  .nav-open .burger-menu .navbar-translate {
+
+  .navbar-translate {
+    width: 100%;
+    position: relative;
+    display: flex;
+    -ms-flex-pack: justify !important;
+    justify-content: space-around !important;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -moz-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -o-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -ms-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+  }
+  /* .nav-open .burger-menu .navbar-translate {
     -webkit-transform: translateX(-230px);
     -moz-transform: translateX(-230px);
     -o-transform: translateX(-230px);
     -ms-transform: translateX(-230px);
     transform: translateX(-230px);
-  }
+  } */
   .burger-menu .dropdown.show .dropdown-menu,
   .burger-menu .dropdown .dropdown-menu {
     border: 0;
