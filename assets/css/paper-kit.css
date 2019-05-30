@@ -3193,6 +3193,7 @@ h3 .small {
 
 .description {
   color: #9A9A9A;
+  font-weight: 60;
 }
 
 blockquote small {
@@ -3284,7 +3285,7 @@ blockquote small {
 }
 
 .title {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 25px;
   min-height: 32px;
 }
@@ -3571,7 +3572,7 @@ input[type="file"]>input[type="button"]::-moz-focus-inner {
 /* About Me section*/
 .about-me {
   color: rgb(9, 31, 63);
-  font-weight: 350;
+  font-weight: 450;
   padding: 6%;
 }
 
@@ -3581,6 +3582,79 @@ justify-content: space-evenly;
 padding: 0 4% 0;
 ;
 }
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about-me-container {
+  display: flex;
+  flex-direction: lower;
+  /* padding: 20px; */
+}
+
+.about-me {
+  color: black;
+}
+
+.about-me-p1{
+  /* background-color: red; */
+  padding-left: 3%;
+
+}
+.about-me-p2 {
+  /* background-color: blue; */
+  padding: 3%;
+}
+
+
+.about-me-upper {
+display: flex;
+flex-direction: row;
+}
+
+.about-me-lower {
+  display: flex;
+}
+.profile-picture {
+  display: flex;
+  padding-left: 3%;
+}
+
+.img-profile {
+  width: 400px;
+  max-width: 100%;
+  max-height: 400px;
+  
+}
+
+.align-content-start {
+  align-content: flex-start;
+}
+
+.img-profile-pic {
+padding: 0 3%;
+width: 100%;
+  
+}
+
+.profilepicture {
+  padding-top: 10%;
+}
+
+.about-me-title {
+
+}
+
+.about-me-intro1 {
+
+}
+.about-me-intro2 {
+
+}
+
 
 
 
@@ -3809,6 +3883,10 @@ License - nucleoapp.com/license/
   -o-transform: scale(1, -1);
   transform: scale(1, -1);
 }
+
+
+
+
 
 /*------------------------
 	font icons
@@ -5083,9 +5161,14 @@ License - nucleoapp.com/license/
 .img-circle {
   background-color: #FFFFFF;
   margin-bottom: 10px;
-  padding: 4px;
+  padding: 7px;
   border-radius: 50% !important;
   max-width: 100%;
+}
+
+.my-picture {
+  width: 60%;
+  justify-content: center;
 }
 
 .img-thumbnail {
@@ -5118,9 +5201,10 @@ License - nucleoapp.com/license/
   margin: -10px 0 0 -15px;
 }
 
-.profile-picture {
-  margin: 0 auto;
-}
+
+
+
+
 
 .profile-picture .fileinput-new img {
   width: 150px;
@@ -7059,7 +7143,7 @@ background-image: url("https://www.transparenttextures.com/patterns/textured-pap
   background-color: white;
   background-color: #f9f7f4;
   /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23543604' fill-opacity='0.2'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); */
-  
+  color: rgb(30,37,37);
 }
 
 .section-image,
@@ -7115,6 +7199,12 @@ background-image: url("https://www.transparenttextures.com/patterns/textured-pap
 [class*="testimonials-"],
 [class*="contactus-"] {
   padding: 40px 0;
+}
+
+
+.profile-picture{
+  width: 50;
+  height: 50;
 }
 
 .section-image {
@@ -7204,7 +7294,6 @@ background-image: url("https://www.transparenttextures.com/patterns/textured-pap
   position: relative;
   z-index: 2;
 }
-
 
 
 

@@ -96,10 +96,7 @@
             <div class="container">
 
                 <div class="owner">
-                    <div class="avatar super-index">
-                        <!-- <img src="./assets/img/benHa.jpg" alt="Circle Image"
-                            class="img-circle img-no-padding img-responsive"> -->
-                    </div>
+                    
                     <div class="name">
                         <h2 class="title">Hi! I'm Donald.
                             <br />
@@ -130,14 +127,44 @@
     </div>
     <div class="main main-raised">
         <div class="container-material">
-            <!-- your content -->
             <div class="section section-white">
-                <div class="d-flex justify-content-center h-100 ">
+                <div class="d-flex justify-content-center align-content-start h-10 ">
                     <h2 class="text-dark-gray" id="aboutme"><strong>About Me</strong></h2>
                 </div>
-                <h3 class="about-me">
-                    Hello. I’m a full-stack developer who is passionate about writing clean, efficient code and solving real world problems - making the world a better place, one line of code at a time.  <br><br>
-                    I’m drawn to the overlap between design and development. I enjoy working within all stages of software development, in both the front end and back end, but I’ve taken a liking more towards the client side and creating dynamic user interfaces. </h3>
+                <div class="container1">
+                    <!-- <div class="avatar super-index circle-pic">
+                            <img src="./assets/img/Donald.jpg" alt="Circle Image"
+                                class="img-circle img-no-padding img-responsive">
+                    </div> -->
+
+                    
+
+<!-- <img src="./assets/img/Donald.jpg" alt="Circle Image"
+                                class="img-circle img-no-padding img-responsive"> -->
+
+                    <div class="profilepicture ">
+                            
+                                <img class="img-profile-pic  img-responsive"
+                                src="./assets/img/Donaldb.jpg" 
+                                alt="smiling, bearded asian ma"
+                                
+                                    >
+                    
+                  
+                    </div>            
+
+                    <div class="about-me about-me-p1">
+                        <h3>
+                            Hello. I’m a full-stack developer who is passionate about writing clean, efficient code and solving real world problems - making the world a better place, one line of code at a time.  
+                        </h3>
+                        <h3>I’m drawn to the overlap between design and development. I enjoy working within all stages of software development, in both the front end and back end, but I’ve taken a liking more towards the client side and creating dynamic user interfaces. </h3>
+                    </div>
+                </div>
+
+                <div class="about-me about-me-p2">
+                    
+
+                </div>
             </div>
             <div class="section section-gray-dark">
                 <div class="d-flex justify-content-center h-100 ">
@@ -371,7 +398,6 @@
                                     data-radius="none">
                                     <img src="./assets/img/jasmine2.png" alt="Jasmine">
                                     <span class="text">Jasmine</span>
-
                                 </div>
                                 <!-- end card -->
                             </div>
@@ -399,7 +425,7 @@
                                                         <i class="nc-icon nc-pin-3" aria-hidden="true"></i>
                                                     </div>
                                                     <div class="description">
-                                                        <a class="info-title" href src="https://www.linkedin.com/in/donald-yeh-b3b1426/">LinkedIn</a>
+                                                        <a class="info-title" href="https://www.linkedin.com/in/donald-yeh-b3b1426/">LinkedIn</a>
                                                         
                                                     </div>
                                                 </div>
@@ -408,7 +434,7 @@
                                                         <i class="nc-icon nc-badge" aria-hidden="true"></i>
                                                     </div>
                                                     <div class="description">
-                                                        <a class="info-title" href src="https://github.com/DonYeh">Github</a>
+                                                        <a class="info-title" href="https://github.com/DonYeh">Github</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -503,7 +529,6 @@
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
     <script>
         $(document).ready(function () {
-
             if ($("#datetimepicker").length != 0) {
                 $('#datetimepicker').datetimepicker({
                     icons: {
@@ -519,9 +544,7 @@
                     }
                 });
             }
-
             function scrollToDownload() {
-
                 if ($('.section-download').length != 0) {
                     $("html, body").animate({
                         scrollTop: $('.section-download').offset().top
